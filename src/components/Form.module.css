@@ -1,0 +1,23 @@
+.form{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.search{
+    width: 400px;
+    height: 40px;
+    border: solid #d7dbdf 3px;
+    border-radius: 5px;
+    background-color: #edeff0;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.button{
+    border-radius: 5px;
+    width: 50px;
+    height: 45px;
+    border: solid #d7dbdf 3px;
+}

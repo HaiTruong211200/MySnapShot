@@ -1,0 +1,10 @@
+.container {
+    margin: 10px 200px;
+    display: flex; /* Sử dụng Flexbox */
+    flex-wrap: wrap; /* Cho phép phần tử bọc xuống hàng khi không đủ chỗ */
+    justify-content: space-between; /* Căn chỉnh các phần tử trong hàng */
+    gap: 10px; /* Khoảng cách giữa các phần tử */
+  }
+  
+
+  

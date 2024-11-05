@@ -1,0 +1,25 @@
+.item {
+    flex: 0 0 calc(25% - 10px); /* Đặt mỗi phần tử chiếm 25% chiều rộng của hàng */
+    color: white; /* Màu chữ */
+    height: 150px;
+    text-align: center; /* Căn giữa nội dung */
+    border-radius: 5px; /* Bo tròn góc */
+    overflow: hidden;
+  }
+
+  .imagecontainer {
+    width: 100%; /* Chiều rộng khung chứa ảnh */
+    height: 150px; /* Chiều cao khung chứa ảnh */
+    overflow: hidden; /* Ẩn phần ảnh khi phóng to */
+    position: relative; /* Để hình ảnh có thể phóng to mà không làm thay đổi kích thước khung */
+  }
+  
+  .imagecontainer img {
+    width: 100%; /* Đặt chiều rộng của ảnh bằng 100% của phần tử cha (li) */
+    transform: scale(1.25); /* Đặt tỷ lệ phóng to ban đầu cho ảnh là 1.25 */
+    transition: transform 1.25s; /* Thêm hiệu ứng chuyển tiếp cho sự thay đổi của transform */
+  }
+  
+  .imagecontainer:hover img {
+    transform: scale(1.65); /* Tăng kích thước ảnh khi hover */
+  }
